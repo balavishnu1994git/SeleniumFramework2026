@@ -32,6 +32,12 @@ public class LogInPage {
 	{
 		return By.xpath("//*[@id='btn-login']");
 	}
+	
+	public static By ClickLogOutcheck()
+	{
+		return By.xpath("//*[text()='Logout']");
+		
+	}
 }
 
 
