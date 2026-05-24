@@ -14,7 +14,7 @@ public class CreateNewAppoinmentPage {
 	public static By Readmission()
 	{
 		return By.xpath("//input[@id='chk_hospotal_readmission']") ;
-		//return By.xpath("//input[@id='chk_hospotal_readmissionhujk']") ;
+		//return By.xpath("//input[@id='chk_hospotal_readmissionhujk']") ;  this code is for error while running
 	}
 	
 	
@@ -27,6 +27,8 @@ public class CreateNewAppoinmentPage {
 	public static By VisitDate()
 	{
 		return By.xpath("//input[@id='txt_visit_date']") ;
+		
+		
 	}
 	
 	public static By AnyComment()
