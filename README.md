@@ -176,6 +176,11 @@ The following are excluded from Git:
 - `*.zip`, `*.war`, `*.ear` — package files
 
 ---
+# Test Execution Report
+
+Below is the Extent Report generated after test execution.
+
+![Extent Report](Screenshots/extent-report.png)
 
 ## 👤 Author
 
