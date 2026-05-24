@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="11" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Opening browser for test Execution]]>
@@ -7,162 +7,24 @@
     <line>
       <![CDATA[******** Test Case Successful ----> verifyLogin]]>
     </line>
-    <line>
-      <![CDATA[Opening browser for test Execution]]>
-    </line>
-    <line>
-      <![CDATA[******** Test Case Successful ----> CreateAppoinment]]>
-    </line>
-    <line>
-      <![CDATA[Opening browser for test Execution]]>
-    </line>
-    <line>
-      <![CDATA[******** Test Case Successful ----> CreateAppoinment]]>
-    </line>
-    <line>
-      <![CDATA[Opening browser for test Execution]]>
-    </line>
-    <line>
-      <![CDATA[******** Test Case Successful ----> verifyAppointmentDate]]>
-    </line>
-    <line>
-      <![CDATA[Opening browser for test Execution]]>
-    </line>
-    <line>
-      <![CDATA[******** Test Case Successful ----> verifyLogOut]]>
-    </line>
   </reporter-output>
-  <suite started-at="2026-05-24T16:40:44 IST" name="Suite" finished-at="2026-05-24T16:41:38 IST" duration-ms="54208">
+  <suite started-at="2026-05-24T17:58:05 IST" name="Default suite" finished-at="2026-05-24T17:58:17 IST" duration-ms="12705">
     <groups>
       <group name="Regression1">
-        <method signature="LogInTest.verifyLogin()[pri:0, instance:TestClass.LogInTest@6989da5e]" name="verifyLogin" class="TestClass.LogInTest"/>
+        <method signature="LogInTest.verifyLogin()[pri:0, instance:TestClass.LogInTest@54d9d12d]" name="verifyLogin" class="TestClass.LogInTest"/>
       </group> <!-- Regression1 -->
-      <group name="Regression2">
-        <method signature="CreateNewAppoinmentTest.CreateAppoinment(java.lang.String,java.lang.String)[pri:1, instance:TestClass.CreateNewAppoinmentTest@6743e411]" name="CreateAppoinment" class="TestClass.CreateNewAppoinmentTest"/>
-      </group> <!-- Regression2 -->
-      <group name="Regression8">
-        <method signature="BookAppoinmentTest.verifyAppointmentDate()[pri:2, instance:TestClass.BookAppoinmentTest@3eb25e1a]" name="verifyAppointmentDate" class="TestClass.BookAppoinmentTest"/>
-      </group> <!-- Regression8 -->
-      <group name="Regression5">
-        <method signature="LogOutTest.verifyLogOut()[pri:3, instance:TestClass.LogOutTest@477b4cdf]" name="verifyLogOut" class="TestClass.LogOutTest"/>
-      </group> <!-- Regression5 -->
-      <group name="sanity">
-        <method signature="CreateNewAppoinmentTest.CreateAppoinment(java.lang.String,java.lang.String)[pri:1, instance:TestClass.CreateNewAppoinmentTest@6743e411]" name="CreateAppoinment" class="TestClass.CreateNewAppoinmentTest"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2026-05-24T16:40:44 IST" name="Test" finished-at="2026-05-24T16:41:38 IST" duration-ms="54208">
-      <class name="TestClass.CreateNewAppoinmentTest">
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestClass.CreateNewAppoinmentTest@6743e411]" started-at="2026-05-24T16:40:57 IST" name="LaunchBrowser" finished-at="2026-05-24T16:41:01 IST" duration-ms="3938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method signature="CreateAppoinment(java.lang.String,java.lang.String)[pri:1, instance:TestClass.CreateNewAppoinmentTest@6743e411]" started-at="2026-05-24T16:41:01 IST" name="CreateAppoinment" data-provider="bookAppoinment" finished-at="2026-05-24T16:41:05 IST" duration-ms="3953" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[20/06/26]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Visit doc1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Opening browser for test Execution]]>
-            </line>
-            <line>
-              <![CDATA[******** Test Case Successful ----> CreateAppoinment]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateAppoinment -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClass.CreateNewAppoinmentTest@6743e411]" started-at="2026-05-24T16:41:05 IST" name="closeBrowser" finished-at="2026-05-24T16:41:08 IST" duration-ms="3251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestClass.CreateNewAppoinmentTest@6743e411]" started-at="2026-05-24T16:41:08 IST" name="LaunchBrowser" finished-at="2026-05-24T16:41:12 IST" duration-ms="3797" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method signature="CreateAppoinment(java.lang.String,java.lang.String)[pri:1, instance:TestClass.CreateNewAppoinmentTest@6743e411]" started-at="2026-05-24T16:41:12 IST" name="CreateAppoinment" data-provider="bookAppoinment" finished-at="2026-05-24T16:41:16 IST" duration-ms="3333" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[21/06/26]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Visit doc2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Opening browser for test Execution]]>
-            </line>
-            <line>
-              <![CDATA[******** Test Case Successful ----> CreateAppoinment]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateAppoinment -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClass.CreateNewAppoinmentTest@6743e411]" started-at="2026-05-24T16:41:16 IST" name="closeBrowser" finished-at="2026-05-24T16:41:19 IST" duration-ms="3229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestClass.CreateNewAppoinmentTest -->
-      <class name="TestClass.BookAppoinmentTest">
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestClass.BookAppoinmentTest@3eb25e1a]" started-at="2026-05-24T16:41:19 IST" name="LaunchBrowser" finished-at="2026-05-24T16:41:23 IST" duration-ms="3847" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method signature="verifyAppointmentDate()[pri:2, instance:TestClass.BookAppoinmentTest@3eb25e1a]" started-at="2026-05-24T16:41:23 IST" name="verifyAppointmentDate" finished-at="2026-05-24T16:41:26 IST" duration-ms="3710" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Opening browser for test Execution]]>
-            </line>
-            <line>
-              <![CDATA[******** Test Case Successful ----> verifyAppointmentDate]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyAppointmentDate -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClass.BookAppoinmentTest@3eb25e1a]" started-at="2026-05-24T16:41:26 IST" name="closeBrowser" finished-at="2026-05-24T16:41:30 IST" duration-ms="3222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestClass.BookAppoinmentTest -->
-      <class name="TestClass.LogOutTest">
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestClass.LogOutTest@477b4cdf]" started-at="2026-05-24T16:41:30 IST" name="LaunchBrowser" finished-at="2026-05-24T16:41:33 IST" duration-ms="3494" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method signature="verifyLogOut()[pri:3, instance:TestClass.LogOutTest@477b4cdf]" started-at="2026-05-24T16:41:33 IST" name="verifyLogOut" finished-at="2026-05-24T16:41:35 IST" duration-ms="2142" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Opening browser for test Execution]]>
-            </line>
-            <line>
-              <![CDATA[******** Test Case Successful ----> verifyLogOut]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLogOut -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClass.LogOutTest@477b4cdf]" started-at="2026-05-24T16:41:35 IST" name="closeBrowser" finished-at="2026-05-24T16:41:38 IST" duration-ms="3205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestClass.LogOutTest -->
+    <test started-at="2026-05-24T17:58:05 IST" name="Default test" finished-at="2026-05-24T17:58:17 IST" duration-ms="12705">
       <class name="TestClass.LogInTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:TestClass.LogInTest@6989da5e]" started-at="2026-05-24T16:40:44 IST" name="setupReport" finished-at="2026-05-24T16:40:44 IST" duration-ms="439" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:TestClass.LogInTest@54d9d12d]" started-at="2026-05-24T17:58:04 IST" name="setupReport" finished-at="2026-05-24T17:58:05 IST" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestClass.LogInTest@6989da5e]" started-at="2026-05-24T16:40:44 IST" name="LaunchBrowser" finished-at="2026-05-24T16:40:50 IST" duration-ms="5500" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestClass.LogInTest@54d9d12d]" started-at="2026-05-24T17:58:05 IST" name="LaunchBrowser" finished-at="2026-05-24T17:58:12 IST" duration-ms="7176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="verifyLogin()[pri:0, instance:TestClass.LogInTest@6989da5e]" started-at="2026-05-24T16:40:50 IST" name="verifyLogin" finished-at="2026-05-24T16:40:54 IST" duration-ms="4113" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:TestClass.LogInTest@54d9d12d]" started-at="2026-05-24T17:58:12 IST" name="verifyLogin" finished-at="2026-05-24T17:58:16 IST" duration-ms="4090" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening browser for test Execution]]>
@@ -172,15 +34,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClass.LogInTest@6989da5e]" started-at="2026-05-24T16:40:54 IST" name="closeBrowser" finished-at="2026-05-24T16:40:57 IST" duration-ms="3401" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClass.LogInTest@54d9d12d]" started-at="2026-05-24T17:58:16 IST" name="closeBrowser" finished-at="2026-05-24T17:58:17 IST" duration-ms="1393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:TestClass.LogInTest@6989da5e]" started-at="2026-05-24T16:41:39 IST" name="flushReport" finished-at="2026-05-24T16:41:39 IST" duration-ms="304" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:TestClass.LogInTest@54d9d12d]" started-at="2026-05-24T17:58:17 IST" name="flushReport" finished-at="2026-05-24T17:58:18 IST" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
       </class> <!-- TestClass.LogInTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

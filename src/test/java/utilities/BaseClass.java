@@ -65,6 +65,13 @@ public class BaseClass
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--incognito");
 
+        // ── Add these for Jenkins ────────────────────
+        options.addArguments("--headless");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--window-size=1920,1080");
+        // ────────────────────────────────────────────
+
         String BrowserName = FetchDataFromProperty.getDataFromProperty().getProperty("browserName");
         String URL = FetchDataFromProperty.getDataFromProperty().getProperty("url");
 
@@ -114,7 +121,7 @@ public class BaseClass
 
     public WebElement waitForVisibility(By locator) 
     {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
@@ -138,7 +145,7 @@ public class BaseClass
     public void closeBrowser() 
     {
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
